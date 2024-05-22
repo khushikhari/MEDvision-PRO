@@ -20,12 +20,12 @@ with open('svc.pkl', 'rb') as model_file:
     svc_model = pickle.load(model_file)
 
 # Load datasets
-sym_des = pd.read_csv("datasets/symtoms_df.csv")
-precautions = pd.read_csv("datasets/precautions_df.csv")
-workout = pd.read_csv("datasets/workout_df.csv")
-description = pd.read_csv("datasets/description.csv")
-medications = pd.read_csv('datasets/medications.csv')
-diets = pd.read_csv("datasets/diets.csv")
+sym_des = pd.read_csv("symtoms_df.csv")
+precautions = pd.read_csv("precautions_df.csv")
+workout = pd.read_csv("workout_df.csv")
+description = pd.read_csv("description.csv")
+medications = pd.read_csv('medications.csv')
+diets = pd.read_csv("diets.csv")
 
 # Define symptoms dictionary and diseases list
 symptoms_dict = {
@@ -101,7 +101,7 @@ def get_predicted_value(patient_symptoms):
 st.set_page_config(layout="wide")
 
 image_url = 'https://th.bing.com/th/id/OIP.nqlmOzQymCdXw3Mhx8BCqQHaE8?w=270&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7'
-st.image('New folder/new.jpg', use_column_width=True)
+st.image('new.jpg', use_column_width=True)
 
 
 
