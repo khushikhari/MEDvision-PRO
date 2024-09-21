@@ -235,8 +235,8 @@ with tab5:
 st.markdown("<hr class='footer'>", unsafe_allow_html=True)
 
 # About Us
-st.markdown("<h3>About Us</h3>", unsafe_allow_html=True)
-st.write("Hey there! This breast cancer detection project was made by <br> ZAINAB <br>KHUSHI KHARI<br>SOUMYA SHUBHAM<br>AARUSH SACHDEVA",unsafe_allow_html=True)
+#st.markdown("<h3>About Us</h3>", unsafe_allow_html=True)
+#st.write("Hey there! This breast cancer detection project was made by <br> ZAINAB <br>KHUSHI KHARI<br>SOUMYA SHUBHAM<br>AARUSH SACHDEVA",unsafe_allow_html=True)
 
 # More Info about Breast Cancer and This Project
 st.markdown("[More Info about this Project](www.google.com)", unsafe_allow_html=True)
